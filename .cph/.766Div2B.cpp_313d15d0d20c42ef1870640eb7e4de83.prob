@@ -1,0 +1,1 @@
+{"name":"Local: 766Div2B","url":"/Users/Chitranshjain/Documents/Programs/766Div2B.cpp","tests":[{"id":1642259272607,"input":"2\n4 3\n1 2\n","output":"3 3 4 4 4 4 4 4 5 5 5 5 \n1 1 \n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/Chitranshjain/Documents/Programs/766Div2B.cpp","group":"local","local":true}

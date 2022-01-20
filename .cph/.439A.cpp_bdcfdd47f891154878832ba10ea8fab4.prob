@@ -1,0 +1,1 @@
+{"name":"Local: 439A","url":"/Users/Chitranshjain/Documents/Programs/439A.cpp","tests":[{"id":1642613688683,"input":"3 30\n2 2 1\n","output":"5"},{"id":1642613698089,"input":"3 20\n2 1 1\n","output":"-1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/Chitranshjain/Documents/Programs/439A.cpp","group":"local","local":true}

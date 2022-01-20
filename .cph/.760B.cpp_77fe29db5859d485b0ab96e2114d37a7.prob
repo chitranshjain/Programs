@@ -1,0 +1,1 @@
+{"name":"Local: 760B","url":"/Users/Chitranshjain/Documents/Programs/760B.cpp","tests":[{"id":1639493449085,"input":"4\n7\nab bb ba aa ba\n7\nab ba aa ab ba\n3\naa\n5\nbb ab bb","output":"abbaaba\nabaabaa\nbaa\nbbabb"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/Chitranshjain/Documents/Programs/760B.cpp","group":"local","local":true}

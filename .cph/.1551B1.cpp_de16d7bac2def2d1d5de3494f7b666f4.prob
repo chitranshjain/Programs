@@ -1,0 +1,1 @@
+{"name":"Local: 1551B1","url":"/Users/Chitranshjain/Documents/Programs/1551B1.cpp","tests":[{"id":1638435907241,"input":"5\nkzaaa\ncodeforces\narchive\ny\nxxxxxx","output":"2\n5\n3\n0\n1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/Chitranshjain/Documents/Programs/1551B1.cpp","group":"local","local":true}

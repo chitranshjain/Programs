@@ -1,0 +1,1 @@
+{"name":"Local: 598A","url":"/Users/Chitranshjain/Documents/Programs/598A.cpp","tests":[{"id":1643188293431,"input":"2\n4\n1000000000\n","output":"-4\n499999998352516354\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/Chitranshjain/Documents/Programs/598A.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 1095B","url":"/Users/Chitranshjain/Documents/Programs/1095B.cpp","tests":[{"id":1643538247007,"input":"4\n1 3 3 7\n","output":"2"},{"id":1643538253800,"input":"2\n1 100000","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/Chitranshjain/Documents/Programs/1095B.cpp","group":"local","local":true}

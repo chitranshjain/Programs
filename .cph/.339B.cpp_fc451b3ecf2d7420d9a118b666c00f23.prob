@@ -1,0 +1,1 @@
+{"name":"Local: 339B","url":"/Users/Chitranshjain/Documents/Programs/339B.cpp","tests":[{"id":1644048959993,"input":"4 3\n3 2 3\n","output":"6"},{"id":1644048963628,"input":"4 3\n2 3 3\n","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/Chitranshjain/Documents/Programs/339B.cpp","group":"local","local":true}

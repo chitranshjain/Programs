@@ -7,19 +7,16 @@ void solve()
     ll n, x, y;
     cin >> n >> x >> y;
 
-    vector<ll> arr(n);
-    for (ll i = 0; i < n; i++)
-        cin >> arr[i];
-
+    ll sum = 0;
     for (ll i = 0; i < n; i++)
     {
-        if (x + arr[i] <= y)
-            x = x + arr[i];
-        else
-            x = x ^ arr[i];
+        ll a;
+        cin >> a;
+        sum = sum + a;
     }
 
-    if (x == y)
+    x = x + sum;
+    if (x % 2 == y % 2)
         cout << "Alice" << endl;
     else
         cout << "Bob" << endl;

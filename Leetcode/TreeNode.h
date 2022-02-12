@@ -2,20 +2,20 @@ template <typename T>
 class TreeNode
 {
 public:
-    T data;
+    T val;
     TreeNode *left;
     TreeNode *right;
 
-    TreeNode(T data)
+    TreeNode(T val)
     {
-        this->data = data;
+        this->val = val;
         left = NULL;
         right = NULL;
     }
 
-    TreeNode(T data, TreeNode *left, TreeNode *right)
+    TreeNode(T val, TreeNode *left, TreeNode *right)
     {
-        this->data = data;
+        this->val = val;
         this->left = left;
         this->right = right;
     }

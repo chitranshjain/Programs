@@ -13,41 +13,10 @@ void solve()
         return;
     }
 
-    if (n % 2 == 0)
-    {
-        bool two = true;
-        for (int i = 0; i < n; i++)
-        {
-            char x;
-            if (two)
-                x = '2';
-            else
-                x = '3';
-
-            s = s + x;
-            two = !two;
-        }
-    }
-    else
-    {
-        bool two = true;
-        for (int i = 0; i < n - 1; i++)
-        {
-            char x;
-            if (two)
-                x = '2';
-            else
-                x = '3';
-
-            s = s + x;
-            two = !two;
-        }
-
-        char x = '3';
-        s = s + x;
-    }
-
-    cout << s << endl;
+    cout << 2;
+    for (int i = 0; i < n - 1; i++)
+        cout << 3;
+    cout << endl;
 }
 
 int main()

@@ -1,0 +1,1 @@
+{"name":"Local: Edu123A","url":"/Users/Chitranshjain/Documents/Programs/Edu123A.cpp","tests":[{"id":1645541578464,"input":"4\nrgbBRG\nRgbrBG\nbBrRgG\nrgRGBb\n","output":"YES\nNO\nYES\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/Chitranshjain/Documents/Programs/Edu123A.cpp","group":"local","local":true}

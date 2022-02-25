@@ -1,0 +1,1 @@
+{"name":"Local: 237A","url":"/Users/Chitranshjain/Documents/Programs/237A.cpp","tests":[{"id":1645792475771,"input":"4\n8 0\n8 10\n8 10\n8 45\n","output":"2"},{"id":1645792479066,"input":"3\n0 12\n10 11\n22 22\n","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/Chitranshjain/Documents/Programs/237A.cpp","group":"local","local":true}

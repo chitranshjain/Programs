@@ -1,0 +1,1 @@
+{"name":"Local: 1499B","url":"/Users/Chitranshjain/Documents/Programs/1499B.cpp","tests":[{"id":1646319099595,"input":"5\n10101011011\n0000\n11111\n110\n1100\n","output":"YES\nYES\nYES\nYES\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/Chitranshjain/Documents/Programs/1499B.cpp","group":"local","local":true}

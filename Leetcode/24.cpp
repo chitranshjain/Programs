@@ -76,3 +76,26 @@ ListNode *swapPairs(ListNode *head)
     else
         return ogHead;
 }
+
+// Recursive
+ListNode *swapPairs(ListNode *head)
+{
+    if (head == NULL)
+        return NULL;
+
+    if (head->next == NULL)
+        return head;
+
+    ListNode *prev, *curr, *next;
+    prev = head;
+    curr = head->next;
+    next = NULL;
+
+    if (curr->next != NULL)
+        next = curr->next;
+
+    curr->next = prev;
+    prev->next = swapPairs(next);
+
+    return curr;
+}

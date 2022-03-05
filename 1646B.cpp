@@ -17,7 +17,7 @@ void solve()
     ll sumBlue = a[0] + a[1], sumRed = a[n - 1];
     ll countBlue = 2, countRed = 1;
 
-    while (low < high - 1)
+    while (low < high)
     {
         if (sumRed > sumBlue)
             break;

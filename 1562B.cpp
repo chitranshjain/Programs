@@ -29,36 +29,26 @@ void solve()
     cin >> num;
 
     string r = num;
-    unordered_map<int, int> freqs;
-    for (int i = 0; i < n; i++)
-    {
+
+    for (int i = 0; i < r.length(); i++)
         if (!isPrime(r[i] - '0'))
         {
-            cout << 1 << "\n"
-                 << r[i] << endl;
-            break;
+            cout << 1 << endl;
+            cout << r[i] << endl;
+            return;
         }
 
-        freqs[r[i] - '0']++;
-
-        if (freqs[r[i] - '0'] > 1)
+    for (int i = 0; i < r.length() - 1; i++)
+    {
+        for (int j = i + 1; j < r.length(); j++)
         {
-            cout << 2 << "\n"
-                 << r[i] << "" << r[i] << endl;
-            break;
-        }
+            int num = (r[i] - '0') * 10 + r[j] - '0';
 
-        if (freqs[7] >= 1)
-        {
-            if (freqs[2] >= 1)
+            if (!isPrime(num))
             {
-                cout << "2\n27" << endl;
-                break;
-            }
-            else if (freqs[5] >= 1)
-            {
-                cout << "2\n57" << endl;
-                break;
+                cout << 2 << endl;
+                cout << num << endl;
+                return;
             }
         }
     }

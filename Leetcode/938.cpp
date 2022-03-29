@@ -28,13 +28,40 @@ struct TreeNode
     }
 };
 
+class Solution
+{
+public:
+    int sum;
+
+    void rangeSum(TreeNode *root, int low, int high)
+    {
+        if (!root)
+            return;
+
+        if (root->val >= low && root->val <= high)
+            sum += root->val;
+
+        if (root->val >= low)
+            rangeSum(root->left, low, high);
+
+        if (root->val <= high)
+            rangeSum(root->right, low, high);
+    }
+
+    int rangeSumBST(TreeNode *root, int low, int high)
+    {
+        sum = 0;
+        rangeSum(root, low, high);
+        return sum;
+    }
+};
+
 int getSum(TreeNode *root, int low, int high, int &sum)
 {
     if (root == NULL)
         return 0;
 
     int val = root->val;
-    cout << val << endl;
     if (val >= low && val <= high)
     {
         sum = sum + val;

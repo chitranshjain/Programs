@@ -25,3 +25,15 @@ public:
         return depth;
     }
 };
+
+class Solution
+{
+public:
+    int maxDepth(TreeNode<int> *root)
+    {
+        if (!root)
+            return 0;
+
+        return 1 + max(maxDepth(root->left), maxDepth(root->right));
+    }
+};
